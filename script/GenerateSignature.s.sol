@@ -18,7 +18,7 @@ contract GenerateSignature is Script {
     address internal constant ANVIL_ADDRESS = 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266;
     address internal constant SEPOLIA_ADDRESS = 0x39Bd89bfBF5f01C8465F0F88Fd6Fb83c493A2f1b;
     uint256 internal ANVIL_KEY = 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80;
-    uint256 internal SEPOLIA_KEY = vm.envUint("SEPOLIA_KEY");
+    uint256 internal SEPOLIA_KEY = 0xa0e3efcb9d1c678370031aaddbccc6ce17e001315f18c3d7bb609ab5e419eb6b;
 
     function run() external view {}
 
