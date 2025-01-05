@@ -12,3 +12,13 @@ docs/
 
 # Dotenv file
 .env
+
+# Aditional files
+lib/
+broadcast/
+.keystore
+
+# zksync
+
+zkout/
+signature.txt
