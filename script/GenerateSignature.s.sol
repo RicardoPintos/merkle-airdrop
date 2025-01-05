@@ -17,6 +17,10 @@ contract GenerateSignature is Script {
     uint256 public constant CLAIMING_AMOUNT = 25e18;
     address internal constant ANVIL_ADDRESS = 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266;
     address internal constant SEPOLIA_ADDRESS = 0x39Bd89bfBF5f01C8465F0F88Fd6Fb83c493A2f1b;
+
+    // THESE ARE TEST PRIVATE KEYS
+    // On the first commit I used vm.envUint("ANVIL_KEY") and vm.envUint("SEPOLIA_KEY")
+    // I changed them because the Github checks didn't pass correctly
     uint256 internal ANVIL_KEY = 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80;
     uint256 internal SEPOLIA_KEY = 0xa0e3efcb9d1c678370031aaddbccc6ce17e001315f18c3d7bb609ab5e419eb6b;
 
