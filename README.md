@@ -32,7 +32,7 @@ With this Foundry project you can create an Airdrop token with Merkle proofs. It
 
 <br>
 
-![LokapalBanner](https://github.com/user-attachments/assets/5509e1f8-9f31-4141-8975-02132a1ba63e)
+![LokapalBanner](https://github.com/user-attachments/assets/14bc28f5-6c30-490c-8159-08acac29390b)
 
 <br>
 
